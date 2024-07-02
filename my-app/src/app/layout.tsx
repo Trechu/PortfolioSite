@@ -18,7 +18,7 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body>
-        <MantineProvider theme={{fontFamily: 'Verdana, sans-serif', colorScheme: 'dark'}} defaultColorScheme="black">{children}</MantineProvider>
+        <MantineProvider theme={{fontFamily: 'Tahoma, sans-serif', colorScheme: 'dark'}} defaultColorScheme="black">{children}</MantineProvider>
       </body>
     </html>
   )

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { UnstyledButton} from '@mantine/core';
-import classes from './navbar.module.css';
+import classes from './styles/navbar.module.css';
 
 interface NavbarLinkProps {
   label: string;
@@ -20,10 +20,11 @@ const sections = [
   { label: 'About me' },
   { label: 'Skills' },
   { label: 'Projects' },
+  { label: 'Interests'}
 ];
 
 export function NavbarMinimal() {
-  const [active, setActive] = useState();
+  const [active, setActive] = useState(3);
 
   const links = sections.map((link, index) => (
       <NavbarLink
