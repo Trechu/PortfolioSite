@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { UnstyledButton} from '@mantine/core';
 import classes from './styles/navbar.module.css';
 
@@ -23,15 +23,25 @@ const sections = [
   { label: 'Interests'}
 ];
 
+function scroll_to(id: Number){
+  window.scrollTo({
+    top: (document.getElementById("section_" + id)?.offsetTop),
+    behavior: "smooth"
+  })
+}
+
 export function NavbarMinimal() {
-  const [active, setActive] = useState(3);
+  const [active, setActive] = useState(-1);
 
   const links = sections.map((link, index) => (
       <NavbarLink
       {...link}
       key={link.label}
       active={index === active}
-      onClick={() => setActive(index)}
+      onClick={() => {
+                      setActive(index)
+                      scroll_to(index)
+                    }}
       />
   ));
 

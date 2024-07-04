@@ -1,11 +1,11 @@
 import classes from './styles/sections.module.css'
 import { Text, Box } from '@mantine/core';
 
-export function AboutMe() {
+export function Skills() {
     return (
         <div className={classes.container} id="section_0">
-            <h3>About me</h3>
-            <p className={classes.p1}>Introduction</p>
+            <h3>Skills</h3>
+            <p className={classes.p1}>The things that I have learned so far</p>
             <Box w={1000}>
                 <Text size="lg" className={classes.intro}>
                 Hi, my name is Tomasz and I am an hard working, diligent and dedicated third year student of Computer Science at AGH UST.

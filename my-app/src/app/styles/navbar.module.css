@@ -2,7 +2,7 @@
     padding: var(--mantine-spacing-md);
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 50px;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -15,9 +15,10 @@
   }
   
   .link {
+    margin-top: -40px;
     padding: var(--mantine-spacing-md);
     width: 150px;
-    height: 60px;
+    height: 30px;
     border-radius: var(--mantine-radius-md);
     text-align: center;
     color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));

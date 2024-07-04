@@ -3,6 +3,7 @@
 import { AboutMe } from "./about_me";
 import { FooterSimple } from "./footer";
 import { NavbarMinimal } from "./navbar";
+import { Skills } from "./skills";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <main>
       <NavbarMinimal />
       <AboutMe />
+      <Skills />
       <FooterSimple />
     </main>
   );
