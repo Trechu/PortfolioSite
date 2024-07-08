@@ -11,6 +11,12 @@
     margin-bottom: 0px;
 }
 
+.p2 {
+    display: block;
+    margin-left: auto;
+    /* float: right; */
+}
+
 .intro {
     margin-left: 20px;
     text-indent: 20px;

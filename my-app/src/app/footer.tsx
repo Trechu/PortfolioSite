@@ -22,6 +22,7 @@ export function FooterSimple() {
     <div className={classes.footer}>
       <Container className={classes.inner}>
         <Group className={classes.links}>{items}</Group>
+        <p>Email: tomaszgrzybaczcontact@gmail.com</p>
         <p>© 2024 - All Rights Reserved</p>
       </Container>
     </div>

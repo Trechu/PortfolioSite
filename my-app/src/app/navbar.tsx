@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import { UnstyledButton} from '@mantine/core';
 import classes from './styles/navbar.module.css';
 
@@ -41,13 +41,12 @@ export function NavbarMinimal() {
       onClick={() => {
                       setActive(index)
                       scroll_to(index)
-                    }}
+                      }}
       />
   ));
 
   return (
     <nav className={classes.navbar}>
-
       <div className={classes.navbarMain}>
         {links}
       </div>
