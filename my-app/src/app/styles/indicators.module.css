@@ -1,0 +1,17 @@
+.pin {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow:
+    0 0 3px 1px #fff,  /* inner white */
+    0 0 5px 3px rgb(17, 114, 167), /* middle magenta */
+    0 0 7px 4px rgb(7, 106, 106); /* outer cy  an */
+}
+
+.img0 {
+    left: 900px;
+    top: 230px;
+}
