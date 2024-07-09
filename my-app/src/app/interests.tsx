@@ -131,6 +131,7 @@ export function Interests() {
                 the Cosmere Reading order as the vast size of the series might be a little daunting at first. But trust me, the commitment
                 is worth it.
                 </Text>
+                <br/>
                 <Text size="lg" className={classes.intro}>
                 As for the travelling part, here You can find a map with most of the more interesting places that I have been to so far.
                 </Text>
@@ -148,9 +149,8 @@ export function Interests() {
                     <Pin active={active===9} left='645' top='270' />
                     <Pin active={active===10} left='730' top='320' />
                 </div>
-            </Box>
-            <Carousel className={classes.carousel} slideSize={{ base: '50%', sm: '50%' }}
-            slideGap={{ base: 'xl', sm: 2 }}
+                <Carousel className={classes.carousel} slideSize={{ base: '70%', sm: '70%' }}
+            slideGap={{ base: 'xl', sm: 'xl' }}
             align="center"
             initialSlide={0}
             withIndicators
@@ -160,6 +160,14 @@ export function Interests() {
             loop>
                 {slides}
             </Carousel>
+            <br/>
+            <br/>
+            <Text size="lg" className={classes.intro}>
+                You can also find me at some Fantasy and Anime conventions around Poland, where I do some cosplaying, attend
+                lectures or simply hang out with people from various fandoms.
+            </Text>
+            </Box>
+            
         </div>
     )
 }
