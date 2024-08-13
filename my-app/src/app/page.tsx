@@ -10,7 +10,7 @@ import { Skills } from "./skills";
 
 export default function Home() {
   return (
-    <main>
+    <main style={{"margin-right": "20%"}}>
       <NavbarMinimal />
       <AboutMe />
       <Skills />

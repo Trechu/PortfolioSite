@@ -51,7 +51,7 @@ const places_of_interest = [
     {
         flag: 'https://www.countryflags.com/wp-content/uploads/singapore-flag-png-large.png',
         name: 'Singapore',
-        desc: 'To be added :)'
+        desc: ''
     },
     {
         flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_Bali.svg/800px-Flag_of_Bali.svg.png',
@@ -81,7 +81,7 @@ const places_of_interest = [
     {
         flag: 'https://www.countryflags.com/wp-content/uploads/united-arab-emirates-flag-png-large.png',
         name: 'The United Arab Emirates',
-        desc: 'I cannot even count how many times I visited the Emirates as a middlepoint between flights'
+        desc: 'I have only technically been here as a mid point between flights'
     },
     {
         flag: 'https://www.countryflags.com/wp-content/uploads/sri-lanka-flag-png-large.png',
@@ -119,7 +119,6 @@ export function Interests() {
         <div className={classes.container} id="section_3">
             <h3 className={classes.p2}>Interests</h3>
             <p className={classes.p1}>A little about myself</p>
-            <Box w={1000}>
                 <Text size="lg" className={classes.intro}>
                 My hobbies include some generic things such as video and board games, fantasy books and all types of movies, but also 
                 travel and Japaneese culture.
@@ -165,9 +164,7 @@ export function Interests() {
             <Text size="lg" className={classes.intro}>
                 You can also find me at some Fantasy and Anime conventions around Poland, where I do some cosplaying, attend
                 lectures or simply hang out with people from various fandoms.
-            </Text>
-            </Box>
-            
+            </Text>            
         </div>
     )
 }
