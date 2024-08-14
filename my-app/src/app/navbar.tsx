@@ -39,8 +39,8 @@ export function NavbarMinimal() {
       key={link.label}
       active={index === active}
       onClick={() => {
-                      setActive(index)
-                      scroll_to(index)
+        scroll_to(index)
+        setActive(index)
                       }}
       />
   ));

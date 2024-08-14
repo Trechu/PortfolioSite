@@ -8,6 +8,7 @@
     position: fixed;
     margin-top: -100px;
     backdrop-filter: blur(15px);
+    z-index: 1;
   }
   
   .navbarMain {
@@ -15,6 +16,9 @@
   }
   
   .link {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
     margin-top: -40px;
     padding: var(--mantine-spacing-md);
     width: 150px;
@@ -24,7 +28,7 @@
     color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
     font-size: x-large;
     &:hover {
-        color: var(--mantine-color-gray-color);
+        color: var(--mantine-color-violet-4);
     }
   
     &[data-active] {

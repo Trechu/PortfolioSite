@@ -1,7 +1,7 @@
 import classes from './styles/sections.module.css'
 import indicators from './styles/indicators.module.css'
-import { Text, Box, Paper, Title, Image } from '@mantine/core';
-import map from './map.png'
+import { Text, Paper, Title, Image } from '@mantine/core';
+import map from './icons/map.png'
 import { Carousel } from '@mantine/carousel'
 import { useState } from 'react';
 
@@ -148,7 +148,7 @@ export function Interests() {
                     <Pin active={active===9} left='645' top='270' />
                     <Pin active={active===10} left='730' top='320' />
                 </div>
-                <Carousel className={classes.carousel} slideSize={{ base: '70%', sm: '70%' }}
+                <Carousel className={classes.carousel} slideSize="50%"
             slideGap={{ base: 'xl', sm: 'xl' }}
             align="center"
             initialSlide={0}
